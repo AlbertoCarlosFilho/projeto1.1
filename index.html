@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="javascript1.js"></script>
 <body id='inpult2'>
     <style>
         *{
@@ -27,21 +28,4 @@
             
             
 </body>
-<script>
-                 function logar(){
-
-            var login = document.getElementById('login').value;
-            var senha = document.getElementById('senha').value;
-
-            if(login == "admin" && senha == "admin"){
-                location.href = "rotas_adm.html";
-            }else if (login == "user" && senha == "user"){
-                location.href = "rotas_user.html"
-            }
-            else{
-                alert('Usuario ou senha incorretos');
-            }
-
-        }
-            </script>
 </html>
